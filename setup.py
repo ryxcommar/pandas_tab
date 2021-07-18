@@ -33,7 +33,7 @@ setup(
     include_package_data=True,
     entry_points={
         "console_scripts": {
-            "pandas_tab = pandas_tab.__main__"
+            "pandas_tab = pandas_tab.cli:cli"
         }
     },
     install_requires=[
