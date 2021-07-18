@@ -27,7 +27,7 @@ Pandas Tab attempts to solve these issues by creating an interface more similar 
 
 ```python
 # using IPython integration:
-# ! pip install pandas_tab[full]
+# ! pip install pandas-tab[full]
 # ! pandas_tab init
 
 import pandas as pd
@@ -98,7 +98,7 @@ c     NaN   NaN   NaN  28.0
 The full installation includes a CLI that adds a startup script to IPython:
 
 ```shell
-pip install pandas_tab[full]
+pip install pandas-tab[full]
 ```
 
 Then, to enable the IPython / Jupyter startup script:
@@ -120,7 +120,7 @@ More on the startup script in the section **IPython / Jupyter Integration**.
 If you don't want the startup script, you don't need the extra dependencies. Simply install with:
 
 ```shell
-pip install pandas_tab
+pip install pandas-tab
 ```
 
 ## IPython / Jupyter Integration
