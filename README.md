@@ -125,7 +125,9 @@ pip install pandas-tab
 
 ## IPython / Jupyter Integration
 
-The startup script it auto-loads `pandas_tab` each time you load up a new IPython kernel (i.e. each time you fire up or restart your Jupyter Notebook).
+The startup script auto-loads `pandas_tab` each time you load up a new IPython kernel (i.e. each time you fire up or restart your Jupyter Notebook).
+
+You can run the startup script in your terminal with `pandas_tab init`.
 
 Without the startup script:
 
