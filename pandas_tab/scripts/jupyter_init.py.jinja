@@ -1,0 +1,13 @@
+"""This script automatically imports pandas_tab into IPython."""
+
+try:
+    import pandas_tab as __pandas_tab
+except ModuleNotFoundError:
+{%- if noisy | default(False) %}
+    raise ModuleNotFoundError(
+        "Module pandas_tab not found. Either pip install pandas_tab, or"
+        f" delete the IPython startup script {__file__!r}."
+    )
+{%- else %}
+    pass
+{%- endif %}

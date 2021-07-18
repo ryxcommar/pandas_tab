@@ -1,0 +1,15 @@
+# Core dependencies
+pandas
+click
+jinja2
+IPython
+
+# Test dependencies
+flake8
+pytest
+pytest-cov
+
+# Other
+pip-tools
+notebook
+twine
