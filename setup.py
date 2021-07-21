@@ -20,7 +20,7 @@ def get_long_description():
 
 setup(
     name="pandas_tab",
-    python_requires=">=3.7",
+    python_requires=">=3.6.1",
     version=get_version("pandas_tab"),
     license="MIT",
     description="Data exploration done quick.",
