@@ -7,8 +7,8 @@ Implementation of Stata's `tabulate` command in Pandas for extremely easy to typ
 
 Support:
 
-- **Python 3.7 and 3.8:** Pandas >=0.23.x
-- **Python 3.9:** Pandas >=1.0.x
+- **Python 3.6 or greater**
+- **Pandas 0.23 or greater**
 
 ## Background & Purpose
 
